@@ -58,6 +58,7 @@ nav ul li{
     
     
 }
+
 .fontNav{
     text-decoration: none;
    
@@ -271,12 +272,18 @@ input[type=text], select, textarea{
     clear: both;
   }
   
+
+   
+  
   
   @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
+
+    
+
   }
   /* fin de formulario */
 
@@ -422,7 +429,17 @@ input[type=text], select, textarea{
     .links{
         line-height: 100px;
     }
-   
+   nav ul li{
+    font-size: 28px;
+    transition: font size, 5s;
+   }
+   nav ul li:hover{
+    font-size: 30px;
+    border: black solid 2px;
+    border-radius: 10px;
+  
+   }
+
  }
 
     @media (min-width:1000px){

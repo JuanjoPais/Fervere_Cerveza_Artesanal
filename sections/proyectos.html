@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos</title>
     <link rel="stylesheet" href="../style/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
                 <h1 class="tituloPpal">Cerveza Artesanal</h1>
             </section>
             <nav>
-                <ul class="menu">
+                <ul data-aos="flip-up" class="menu">
                     <li><a class="fontNav" href="../index.html">Home</a></li>
                     <li><a class="fontNav" href="./nosotros.html">Nosotros</a></li>
                     <li><a class="fontNav" href="./tienda.html">Tienda</a></li>
@@ -179,16 +180,16 @@
                 </div>
                 <div class="contacto ">
                     <p class="subtitulos">
-                        <a href="./contacto.html">Suscribite al newsletter!</a>
+                        <a data-aos="zoom-in-up" href="./contacto.html">Suscribite al newsletter!</a>
                     </p>
                 </div>
 
 
                 <section class="redes">
 
-                    <a href="http://instagram.com/cervezafervere" target="_blank"><img src="../imagen/iconIG.png"
+                    <a href="http://instagram.com/cervezafervere" target="_blank"><img data-aos="fade-right" src="../imagen/iconIG.png"
                             alt="Ícono de Instagram"></a>
-                    <a href="http://facebook.com" target="_blank"><img src="../imagen/Whatsapp_icon-icons.com_66931.png"
+                    <a href="http://facebook.com" target="_blank"><img data-aos="fade-left" src="../imagen/Whatsapp_icon-icons.com_66931.png"
                             alt="Ícono de Whatsapp"></a>
 
                 </section>
@@ -209,6 +210,11 @@
 
         </footer>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 

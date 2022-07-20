@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fervere</title>
     <link rel="stylesheet" href="./style/styles.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +22,8 @@
                 <h1 class="tituloPpal">Cerveza Artesanal</h1>
             </section>
             <nav>
-                <ul class="menu">
+                <ul data-aos="flip-up" class="menu">
+                    
                     <li><a class="fontNav" href="./index.html">Home</a></li>
                     <li><a class="fontNav" href="./sections/nosotros.html">Nosotros</a></li>
                     <li><a class="fontNav" href="./sections/tienda.html">Tienda</a></li>
@@ -72,28 +75,40 @@
             <section class="seccionHomebrewer bordesSecciones">
                 <h3 class="subtitulos">Sumergite en el Universo Homebrewer</h3>
 
-                <div class="linksHomebrew">
+                <div  class="linksHomebrew">
 
                     <!-- En esta sección quiero incluir una serie de logos con sus respectivos links. La idea es que todos tengan el mismo tamaño, supongo que después lo haré con CSS -->
 
 
-                    <a href="https://ipatec.conicet.gov.ar/" target="_blank"><img class="bordesfotos logoLink"
+                    <a href="https://ipatec.conicet.gov.ar/" target="_blank"><img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="bordesfotos logoLink aparecer"
                             src="./imagen/Logo-header ipatec modif.png" alt="logo Ipatec, CONICET"></a>
 
-                    <a href="http://somoscerveceros.com.ar/" target="_blank"><img class="bordesfotos logoLink"
+                    <a href="http://somoscerveceros.com.ar/" target="_blank"><img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="bordesfotos logoLink aparecer"
                             src="./imagen/logo somos cerveceros modif.jpg"
                             alt="logo asociación civil Somos Cerveceros"></a>
 
-                    <a href="https://www.brew-o-matic.com.ar/#/dashboard" target="_blank"><img
-                            class="bordesfotos logoLink" src="./imagen/bom modif.jpg" alt="logo Brew o Matic"></a>
+                    <a href="https://www.brew-o-matic.com.ar/#/dashboard" target="_blank"><img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"
+                            class="bordesfotos logoLink aparecer" src="./imagen/bom modif.jpg" alt="logo Brew o Matic"></a>
 
-                    <a href="https://www.bjcp.org/" target="_blank"><img class="bordesfotos logoLink"
+                    <a href="https://www.bjcp.org/" target="_blank"><img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="bordesfotos logoLink aparecer"
                             src="./imagen/bjcp modif.jpg" alt="logo organización bjcp"></a>
 
-                    <a href="https://www.argentinabrew.com/" target="_blank"><img class="bordesfotos logoLink"
+                    <a href="https://www.argentinabrew.com/" target="_blank"><img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="bordesfotos logoLink aparecer"
                             src="./imagen/arg brew modif.png" alt="logo tienda de insumos Argentina Brew"></a>
 
-                    <a href="https://minicerveceria.com/" target="_blank"><img class="bordesfotos logoLink"
+                    <a href="https://minicerveceria.com/" target="_blank"><img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="bordesfotos logoLink aparecer"
                             src="./imagen/mini modif.jpg" alt="logo tienda de insumos Minicervecería"></a>
 
                 </div>
@@ -125,17 +140,17 @@
                             alt="Logo Fervere"></a>
                 </section>
                 <div class="contacto ">
-                    <p class="subtitulos">
-                        <a class="newsletter" href="./sections/contacto.html">Suscribite al newsletter!</a>
+                    <p data-aos="zoom-in-up" class="subtitulos">
+                        <a  class="newsletter" href="./sections/contacto.html">Suscribite al newsletter!</a>
                     </p>
                 </div>
 
 
                 <section class="redes">
 
-                    <a href="http://instagram.com/cervezafervere" target="_blank"><img src="./imagen/iconIG.png"
+                    <a  href="http://instagram.com/cervezafervere" target="_blank"><img data-aos="fade-right" src="./imagen/iconIG.png"
                             alt="Ícono de Instagram"></a>
-                    <a href="http://facebook.com" target="_blank"><img src="./imagen/Whatsapp_icon-icons.com_66931.png"
+                    <a href="http://facebook.com" target="_blank"><img data-aos="fade-left" src="./imagen/Whatsapp_icon-icons.com_66931.png"
                             alt="Ícono de Whatsapp"></a>
 
                 </section>
@@ -154,6 +169,12 @@
         </footer>
 
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
 </body>
 
 
