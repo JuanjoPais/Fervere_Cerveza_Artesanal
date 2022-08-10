@@ -570,3 +570,16 @@ input[type=submit] {
     border: solid 2px black;
     text-align: center;
 }
+
+.card{
+    overflow: hidden;
+    background-color: #F2BA52;
+}
+.btn{
+    background-color: #91BF70;
+    color: black;
+    border: solid black 1px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
