@@ -1,130 +1,29 @@
+@import "variableGeneral";
 @import "fuentes";
+@import "header";
 @import "generales";
+@import "bordes";
+@import "texto";
+@import "diseñoSecciones";
+@import "subtitulos";
+@import "footer";
+@import "modifBS";
 
-body {
 
-    text-align: center;
 
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #F2BA52;
-}
-
-.tituloPpal {
-    font-size: 30px;
-    width: 100%;
-    justify-content: center;
-    font-family: 'Permanent Marker', cursive;
-    color: black;
-}
-
-header {
-    font-size: large;
-    display: grid;
-
-    align-items: center;
-    justify-content: center;
-    background-color: #FCFCFC;
-
-    background-image: url(../imagen/fondoLupulos3.jpg);
-    background-size: cover;
-
-}
 
 .logo {
 
     width: 70%;
-
-
 }
 
-nav ul li {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Chivo', sans-serif;
-    font-size: 28px;
-    color: black;
-    line-height: 40px;
-    font-weight: bolder;
 
-
-
-}
-
-.fontNav {
-    text-decoration: none;
-
-
-}
 
 .imgHome {
     width: 100%;
 
 }
 
-.mainIndex {
-    display: grid;
-    grid-template-columns: 100%;
-    gap: 20px;
-
-
-}
-
-.bordesfotos {
-    border: black solid 3px;
-    border-radius: 23px;
-}
-
-.bordesSecciones {
-    border-top: black solid 2px;
-    border-bottom: black solid 2px;
-}
-
-.parte1 {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    background-color: #91BF70;
-    padding: 10px;
-
-
-
-}
-
-.subtitulos {
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 300%;
-    text-align: center;
-    font-style: italic;
-    margin: 20px 0 20px 0;
-
-
-}
-
-.presentacion {
-    margin: 10px;
-}
-
-.texto {
-    font-family: 'Chivo', sans-serif;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 100;
-    margin-bottom: 20px;
-    width: 100%;
-    align-items: center;
-}
-
-.seccionHomebrewer {
-    background-color: #91BF70;
-    ;
-    margin-bottom: 30px;
-}
 
 .logoLink {
     width: 30%;
@@ -132,114 +31,9 @@ nav ul li {
 
 
 
-footer {
-    font-size: large;
-    display: grid;
-
-    justify-content: center;
-    background-color: #FCFCFC;
-
-    background-image: url(../imagen/fondoLupulos3.jpg);
-    background-size: cover;
-    border-top: black solid 2px;
 
 
-}
 
-.footerSuperior {
-    display: grid;
-    grid-template-areas:
-        "datos"
-        "redes"
-        "contacto"
-        "logoPie"
-        "legales";
-    gap: 10px;
-    justify-items: center;
-    margin-top: 20px;
-    width: 100%;
-
-}
-
-.contacto {
-    grid-area: contacto;
-    font-size: x-large;
-    font-weight: bolder;
-    color: black;
-}
-
-.datos {
-    grid-area: datos;
-    text-align: center;
-    padding: 20px;
-    width: 50%;
-    overflow: hidden;
-    background-color: white;
-}
-
-.redes {
-    grid-area: redes;
-
-}
-
-a {
-    text-decoration: none;
-
-}
-
-.logoPie {
-    grid-area: logoPie;
-    width: 90%;
-}
-
-.legales {
-    grid-area: legales;
-    background-color: black;
-    color: white;
-    width: 100%;
-}
-
-.newsletter {
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: xx-large;
-    color: black;
-
-}
-
-.marginFotos {
-    margin-bottom: 10px;
-}
-
-.subtituloCanela {
-    text-transform: uppercase;
-    font-style: normal;
-    border-bottom: black solid 2px;
-    border-top: black solid 2px;
-}
-
-ol li {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Chivo', sans-serif;
-    line-height: 30px;
-    align-items: center;
-
-
-}
-
-.itemTienda {
-    text-align: center;
-    font-size: large;
-    font-weight: bolder;
-
-}
-
-.precio {
-    font-weight: bolder;
-
-}
 
 
 /* Todo esto lo saqué de un formulario ya armado */
@@ -547,31 +341,5 @@ input[type=submit] {
 
 }
 
-.bordeHeader {
-    margin: 10px 0 10px 0;
-    overflow: hidden;
-}
 
-.nav-link {
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: xx-large;
-}
 
-.list-group-item {
-    font-family: 'Chivo', sans-serif;
-    border: solid 2px black;
-    text-align: center;
-}
-
-.card{
-    overflow: hidden;
-    background-color: #F2BA52;
-}
-.btn{
-    background-color: #91BF70;
-    color: black;
-    border: solid black 1px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}

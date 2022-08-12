@@ -4,6 +4,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Bahiana&family=Bangers&family=Bebas+Neue&family=Caveat:wght@500&family=Metal&family=Noto+Sans:wght@300&family=Permanent+Marker&family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bahiana&family=Bangers&family=Bebas+Neue&family=Caveat:wght@500&family=Chivo&family=Metal&family=Noto+Sans:wght@300&family=Permanent+Marker&family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bahiana&family=Bangers&family=Bebas+Neue&family=Caveat:wght@500&family=Chivo&family=Metal&family=Mouse+Memoirs&family=Noto+Sans:wght@300&family=Permanent+Marker&family=Secular+One&display=swap");
+header {
+  font-size: large;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #FCFCFC;
+  background-image: url(../imagen/fondoLupulos3.jpg);
+  background-size: cover;
+}
+
+.fontNav {
+  text-decoration: none;
+}
+
+.bordeHeader {
+  margin: 10px 0 10px 0;
+  overflow: hidden;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -17,60 +36,8 @@ body {
   background-color: #F2BA52;
 }
 
-body {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #F2BA52;
-}
-
-.tituloPpal {
-  font-size: 30px;
-  width: 100%;
-  justify-content: center;
-  font-family: "Permanent Marker", cursive;
-  color: black;
-}
-
-header {
-  font-size: large;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  background-color: #FCFCFC;
-  background-image: url(../imagen/fondoLupulos3.jpg);
-  background-size: cover;
-}
-
-.logo {
-  width: 70%;
-}
-
-nav ul li {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: "Chivo", sans-serif;
-  font-size: 28px;
-  color: black;
-  line-height: 40px;
-  font-weight: bolder;
-}
-
 .fontNav {
   text-decoration: none;
-}
-
-.imgHome {
-  width: 100%;
-}
-
-.mainIndex {
-  display: grid;
-  grid-template-columns: 100%;
-  gap: 20px;
 }
 
 .bordesfotos {
@@ -83,28 +50,6 @@ nav ul li {
   border-bottom: black solid 2px;
 }
 
-.parte1 {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-  background-color: #91BF70;
-  padding: 10px;
-}
-
-.subtitulos {
-  font-family: "Mouse Memoirs", sans-serif;
-  font-size: 300%;
-  text-align: center;
-  font-style: italic;
-  margin: 20px 0 20px 0;
-}
-
-.presentacion {
-  margin: 10px;
-}
-
 .texto {
   font-family: "Chivo", sans-serif;
   font-size: 20px;
@@ -115,13 +60,68 @@ nav ul li {
   align-items: center;
 }
 
+.mainIndex {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 20px;
+}
+
+.parte1 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  background-color: #91BF70;
+  padding: 10px;
+}
+
 .seccionHomebrewer {
   background-color: #91BF70;
   margin-bottom: 30px;
 }
 
-.logoLink {
-  width: 30%;
+.presentacion {
+  margin: 10px;
+}
+
+.marginFotos {
+  margin-bottom: 10px;
+}
+
+.subtituloCanela {
+  text-transform: uppercase;
+  font-style: normal;
+  border-bottom: black solid 2px;
+  border-top: black solid 2px;
+}
+
+ol li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Chivo", sans-serif;
+  line-height: 30px;
+  align-items: center;
+}
+
+.itemTienda {
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.precio {
+  font-weight: bolder;
+}
+
+.subtitulos {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 300%;
+  text-align: center;
+  font-style: italic;
+  margin: 20px 0 20px 0;
 }
 
 footer {
@@ -185,35 +185,41 @@ a {
   color: black;
 }
 
-.marginFotos {
-  margin-bottom: 10px;
+.nav-link {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: xx-large;
 }
 
-.subtituloCanela {
-  text-transform: uppercase;
-  font-style: normal;
-  border-bottom: black solid 2px;
-  border-top: black solid 2px;
-}
-
-ol li {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.list-group-item {
   font-family: "Chivo", sans-serif;
-  line-height: 30px;
-  align-items: center;
-}
-
-.itemTienda {
+  border: solid 2px black;
   text-align: center;
-  font-size: large;
-  font-weight: bolder;
 }
 
-.precio {
-  font-weight: bolder;
+.card {
+  overflow: hidden;
+  background-color: #F2BA52;
+}
+
+.btn {
+  background-color: #91BF70;
+  color: black;
+  border: solid black 1px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 70%;
+}
+
+.imgHome {
+  width: 100%;
+}
+
+.logoLink {
+  width: 30%;
 }
 
 /* Todo esto lo saqué de un formulario ya armado */
@@ -432,33 +438,4 @@ input[type=submit] {
   .links {
     font-size: x-large;
   }
-}
-.bordeHeader {
-  margin: 10px 0 10px 0;
-  overflow: hidden;
-}
-
-.nav-link {
-  font-family: "Mouse Memoirs", sans-serif;
-  font-size: xx-large;
-}
-
-.list-group-item {
-  font-family: "Chivo", sans-serif;
-  border: solid 2px black;
-  text-align: center;
-}
-
-.card {
-  overflow: hidden;
-  background-color: #F2BA52;
-}
-
-.btn {
-  background-color: #91BF70;
-  color: black;
-  border: solid black 1px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
 }/*# sourceMappingURL=diseños.css.map */

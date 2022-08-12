@@ -1,0 +1,73 @@
+footer {
+    font-size: large;
+    display: grid;
+
+    justify-content: center;
+    background-color: #FCFCFC;
+
+    background-image: url(../imagen/fondoLupulos3.jpg);
+    background-size: cover;
+    border-top: black solid 2px;
+
+
+}
+
+.footerSuperior {
+    display: grid;
+    grid-template-areas:
+        "datos"
+        "redes"
+        "contacto"
+        "logoPie"
+        "legales";
+    gap: 10px;
+    justify-items: center;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.contacto {
+    grid-area: contacto;
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+}
+
+.datos {
+    grid-area: datos;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.redes {
+    grid-area: redes;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.logoPie {
+    grid-area: logoPie;
+    width: 90%;
+}
+
+.legales {
+    grid-area: legales;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.newsletter {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: xx-large;
+    color: black;
+
+}
