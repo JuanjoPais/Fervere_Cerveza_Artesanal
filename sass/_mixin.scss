@@ -1,0 +1,11 @@
+@mixin tamañoItem($widht, $height){
+
+    height: $height;
+    width: $widht;
+}
+
+.mixinTamaños{
+    @include tamañoItem(2em,4em);
+}
+    
+

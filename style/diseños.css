@@ -210,6 +210,11 @@ a {
   justify-content: center;
 }
 
+.mixinTamaños {
+  height: 4em;
+  width: 2em;
+}
+
 .logo {
   width: 70%;
 }
