@@ -40,7 +40,7 @@ body {
   text-decoration: none;
 }
 
-.bordesfotos {
+.bordesfotos, img {
   border: black solid 3px;
   border-radius: 23px;
 }
@@ -438,13 +438,4 @@ input[type=submit] {
   .links {
     font-size: x-large;
   }
-
-
-}
-
-.carousel{
-  width: 50%;
-}
-
-
-/*# sourceMappingURL=diseños.css.map */
+}/*# sourceMappingURL=diseños.css.map */
