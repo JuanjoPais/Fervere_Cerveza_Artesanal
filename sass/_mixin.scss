@@ -1,11 +1,16 @@
-@mixin tamañoItem($widht, $height){
+@mixin mixinBotones($widht, $color , $margin, $border, $borderradius, $fontColor, $fontBold){
 
-    height: $height;
     width: $widht;
+    background-color: $color;
+    margin-bottom: $margin;
+    border: $border;
+    border-radius: $borderradius;
+    color: $fontColor;
+    font-weight: $fontBold;
 }
 
-.mixinTamaños{
-    @include tamañoItem(2em,4em);
+.mixinBotones{
+    @include mixinBotones(100%, rgb(185, 147, 76), 20px, black 2px solid, 5px, black, bolder);
 }
     
 

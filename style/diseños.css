@@ -50,6 +50,8 @@ body {
   border-bottom: black solid 2px;
 }
 
+
+
 .texto {
   font-family: "Chivo", sans-serif;
   font-size: 20px;
@@ -210,9 +212,14 @@ a {
   justify-content: center;
 }
 
-.mixinTamaños {
-  height: 4em;
-  width: 2em;
+.mixinBotones {
+  width: 100%;
+  background-color: rgb(185, 147, 76);
+  margin-bottom: 20px;
+  border: black 2px solid;
+  border-radius: 5px;
+  color: black;
+  font-weight: bolder;
 }
 
 .logo {
@@ -224,6 +231,10 @@ a {
 }
 
 .logoLink {
+  width: 30%;
+}
+
+.carousel {
   width: 30%;
 }
 
@@ -287,6 +298,9 @@ input[type=submit] {
   }
 }
 /* fin de formulario */
+
+
+
 @media (min-width: 660px) {
   ul {
     display: flex;
