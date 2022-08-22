@@ -120,8 +120,6 @@ input[type=submit] {
 
 
 
-
-
 @media (min-width:660px) {
 
     ul {
@@ -200,10 +198,13 @@ input[type=submit] {
 
     .seccionNosotros2 {
         display: grid;
+        
         grid-template-areas:
             "textoNosotros2"
             "fotoBloque";
         justify-items: center;
+        align-items: center;
+        align-content: center;
 
     }
 
@@ -213,7 +214,7 @@ input[type=submit] {
 
     .fotoBloque {
         grid-area: fotoBloque;
-        width: 50%;
+  
 
     }
 
@@ -245,7 +246,14 @@ input[type=submit] {
     .canelaPumpkin {
         display: grid;
         grid-template-columns: 50% 50%;
+        align-items: end;
 
+    }
+
+    .proximosPasos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: start;
     }
 
     .canela {
@@ -342,10 +350,13 @@ input[type=submit] {
     .links {
         font-size: x-large;
     }
+    
 
 
 
 }
+
+
 
 
 

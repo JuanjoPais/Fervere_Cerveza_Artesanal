@@ -50,8 +50,6 @@ body {
   border-bottom: black solid 2px;
 }
 
-
-
 .texto {
   font-family: "Chivo", sans-serif;
   font-size: 20px;
@@ -116,6 +114,12 @@ ol li {
 
 .precio {
   font-weight: bolder;
+}
+
+.card {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
 }
 
 .subtitulos {
@@ -298,9 +302,6 @@ input[type=submit] {
   }
 }
 /* fin de formulario */
-
-
-
 @media (min-width: 660px) {
   ul {
     display: flex;
@@ -359,13 +360,14 @@ input[type=submit] {
     display: grid;
     grid-template-areas: "textoNosotros2" "fotoBloque";
     justify-items: center;
+    align-items: center;
+    align-content: center;
   }
   .textoNosotros2 {
     grid-area: textoNosotros2;
   }
   .fotoBloque {
     grid-area: fotoBloque;
-    width: 50%;
   }
   .textoEllas {
     grid-area: textoEllas;
@@ -388,6 +390,12 @@ input[type=submit] {
   .canelaPumpkin {
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: end;
+  }
+  .proximosPasos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: start;
   }
   .canela {
     display: flex;
