@@ -12,6 +12,8 @@
 .card{
     overflow: hidden;
     background-color: #F2BA52;
+    height: min-content;
+    margin: 20px;
 }
 .btn{
     background-color: #91BF70;
@@ -24,8 +26,6 @@
 
 .carousel{
     width: 50%;
+    margin: 10px;
 }
 
-.card{
-    height: min-content;
-}

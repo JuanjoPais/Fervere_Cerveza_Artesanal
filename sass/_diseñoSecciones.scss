@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 100%;
     gap: 20px;
+    
 
 
 }
@@ -16,6 +17,8 @@
     text-align: justify;
     background-color: $colorSecciones;
     padding: 10px;
+    
+    
 
 
 
@@ -89,6 +92,18 @@ nav ul li:hover {
     background-color: $backgroundColor;
     border-top: black solid 2px;
 }    
+
+picture{
+    margin-bottom: 10px;
+}
+
+.linksHomebrew{
+    margin-bottom: 20px;
+}
+
+.cuadroLinkHomebrew{
+    margin: 5px;
+}
 
 
 
