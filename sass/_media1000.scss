@@ -1,0 +1,57 @@
+@media (min-width:1000px) {
+
+    .prueba {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+
+    }
+
+    .textoIndex {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin-left: 20px;
+
+    }
+
+    .logoLink {
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .linksHomebrew {
+        margin-bottom: 30px;
+    }
+
+    .newsletter {
+        font-size: 50px;
+    }
+
+    .deLitro {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100%;
+    }
+
+    .textoProy {
+        margin-right: 20px;
+    }
+
+    .video {
+        margin: 30px;
+
+    }
+
+    .textoSust {
+        margin: 25px;
+    }
+
+    .links {
+        font-size: x-large;
+    }
+    
+
+
+
+}

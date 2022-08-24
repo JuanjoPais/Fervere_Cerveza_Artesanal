@@ -226,22 +226,6 @@ a {
   font-weight: bolder;
 }
 
-.logo {
-  width: 70%;
-}
-
-.imgHome {
-  width: 100%;
-}
-
-.logoLink {
-  width: 30%;
-}
-
-.carousel {
-  width: 30%;
-}
-
 /* Todo esto lo saqué de un formulario ya armado */
 input[type=text],
 select,
@@ -302,6 +286,22 @@ input[type=submit] {
   }
 }
 /* fin de formulario */
+.logo {
+  width: 70%;
+}
+
+.imgHome {
+  width: 100%;
+}
+
+.logoLink {
+  width: 30%;
+}
+
+.carousel {
+  width: 30%;
+}
+
 @media (min-width: 660px) {
   ul {
     display: flex;
