@@ -34,6 +34,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #F2BA52;
+  width: auto;
 }
 
 .fontNav {
@@ -96,16 +97,6 @@ body {
   border-top: black solid 2px;
 }
 
-ol li {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: "Chivo", sans-serif;
-  line-height: 30px;
-  align-items: center;
-}
-
 .itemTienda {
   text-align: center;
   font-size: large;
@@ -116,10 +107,32 @@ ol li {
   font-weight: bolder;
 }
 
-.card {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
+nav ul li:hover {
+  font-size: 30px;
+  border: black solid 2px;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 70%;
+}
+
+.imgHome {
+  width: 100%;
+}
+
+.logoLink {
+  width: 30%;
+}
+
+.tituloPpal {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 300%;
+  text-align: center;
+  font-style: italic;
+  margin: 0px 0 0px 0;
+  background-color: #F2BA52;
+  border-top: black solid 2px;
 }
 
 .subtitulos {
@@ -216,6 +229,16 @@ a {
   justify-content: center;
 }
 
+.carousel {
+  width: 50%;
+}
+
+.card {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
 .mixinBotones {
   width: 100%;
   background-color: rgb(185, 147, 76);
@@ -286,22 +309,6 @@ input[type=submit] {
   }
 }
 /* fin de formulario */
-.logo {
-  width: 70%;
-}
-
-.imgHome {
-  width: 100%;
-}
-
-.logoLink {
-  width: 30%;
-}
-
-.carousel {
-  width: 50%;
-}
-
 @media (min-width: 660px) {
   ul {
     display: flex;
@@ -435,6 +442,7 @@ input[type=submit] {
   .prueba {
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: stretch;
   }
   .textoIndex {
     display: flex;

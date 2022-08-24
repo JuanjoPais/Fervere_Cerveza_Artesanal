@@ -23,7 +23,7 @@
 
 .seccionHomebrewer {
     background-color: $colorSecciones;
-    ;
+    
     margin-bottom: 30px;
 }
 
@@ -42,17 +42,7 @@
     border-top: black solid 2px;
 }
 
-ol li {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Chivo', sans-serif;
-    line-height: 30px;
-    align-items: center;
 
-
-}
 
 .itemTienda {
     text-align: center;
@@ -66,10 +56,39 @@ ol li {
 
 }
 
-.card{
-    height: min-content;
-}
 
+
+nav ul li:hover {
+    font-size: 30px;
+    border: black solid 2px;
+    border-radius: 10px;}
+
+.logo {
+
+        width: 70%;
+    }
+    
+    
+    
+.imgHome {
+        width: 100%;
+    
+    }
+    
+    
+.logoLink {
+        width: 30%;
+    }
+
+.tituloPpal{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    font-style: italic;
+    margin: 0px 0 0px 0;
+    background-color: $backgroundColor;
+    border-top: black solid 2px;
+}    
 
 
 
