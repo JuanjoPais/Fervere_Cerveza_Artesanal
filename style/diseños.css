@@ -238,7 +238,7 @@ a {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  margin: 20px;
+  margin: 5px;
 }
 
 .btn {
@@ -252,14 +252,12 @@ a {
 
 .carousel {
   width: 50%;
-
-  
-
+  margin: 10px;
 }
 
-
-
-
+.card-title {
+  overflow-x: visible;
+}
 
 .mixinBotones {
   width: 100%;
@@ -465,7 +463,7 @@ input[type=submit] {
   .prueba, .pruebaLinks {
     display: grid;
     grid-template-columns: 50% 50%;
-    align-items: stretch;
+    align-items: center;
   }
   .pruebaLinks {
     align-items: center;
@@ -489,6 +487,7 @@ input[type=submit] {
     font-size: 50px;
   }
   .deLitro {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 100%;
   }
@@ -516,5 +515,8 @@ input[type=submit] {
   }
   .tituloPpal {
     font-size: 400%;
+  }
+  .card {
+    overflow-x: visible;
   }
 }/*# sourceMappingURL=diseños.css.map */
