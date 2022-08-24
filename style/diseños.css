@@ -299,7 +299,7 @@ input[type=submit] {
 }
 
 .carousel {
-  width: 30%;
+  width: 50%;
 }
 
 @media (min-width: 660px) {
@@ -427,6 +427,9 @@ input[type=submit] {
     justify-content: center;
     justify-items: center;
   }
+  .carousel {
+    width: 50%;
+  }
 }
 @media (min-width: 1000px) {
   .prueba {
@@ -464,5 +467,8 @@ input[type=submit] {
   }
   .links {
     font-size: x-large;
+  }
+  .carousel {
+    width: 30%;
   }
 }/*# sourceMappingURL=diseños.css.map */
