@@ -1,4 +1,3 @@
-/* Todo esto lo saqué de un formulario ya armado */
 input[type=text],
 select,
 textarea {
@@ -55,10 +54,6 @@ input[type=submit] {
     clear: both;
 }
 
-
-
-
-
 @media screen and (max-width: 600px) {
 
     .col-25,
@@ -67,9 +62,5 @@ input[type=submit] {
         width: 100%;
         margin-top: 0;
     }
-
-
-
 }
 
-/* fin de formulario */

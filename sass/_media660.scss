@@ -4,12 +4,9 @@
     ul {
         display: flex;
         flex-direction: row;
-
-
     }
 
     nav ul li {
-
         margin-left: 25px;
     }
 
@@ -49,10 +46,8 @@
     }
 
     .datos {
-
         text-align: left;
         width: fit-content;
-
     }
 
     .seccionNosotros {
@@ -94,8 +89,6 @@
 
     .fotoBloque {
         grid-area: fotoBloque;
-  
-
     }
 
 
@@ -116,20 +109,11 @@
     }
 
 
-    .deLitro {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
-        gap: 25px;
-        overflow-x: visible;
-        
-    }
 
     .canelaPumpkin {
         display: grid;
         grid-template-columns: 50% 50%;
         align-items: end;
-
     }
 
     .proximosPasos{
@@ -181,5 +165,9 @@
         width: 50%;
     }
 
+    .tienda660{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 
 }

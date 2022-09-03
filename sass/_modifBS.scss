@@ -4,28 +4,26 @@
 }
 
 .list-group-item {
-    font-family: 'Chivo', sans-serif;
-    border: solid 2px black;
+    font-family: 'Chivo', sans-serif;    
     text-align: center;
 }
 
 .card{
-    overflow: hidden;
-    background-color: #F2BA52;
+    overflow: hidden;    
     height: min-content;
     margin: 5px;
     overflow-x: visible;
- 
-    
+    background-color: #F2BA52;    
    
 }
+
 .btn{
-    background-color: #91BF70;
+    
     color: black;
-    border: solid black 1px;
     display: flex;
     text-align: center;
     justify-content: center;
+    background-color: #91BF70;
 }
 
 .carousel{

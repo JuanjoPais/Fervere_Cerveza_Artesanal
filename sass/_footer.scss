@@ -1,15 +1,11 @@
 footer {
     font-size: large;
     display: grid;
-
     justify-content: center;
     background-color: #FCFCFC;
-
     background-image: url(../imagen/fondoLupulos3.jpg);
     background-size: cover;
     border-top: black solid 2px;
-
-
 }
 
 .footerSuperior {
@@ -46,12 +42,10 @@ footer {
 
 .redes {
     grid-area: redes;
-
 }
 
 a {
     text-decoration: none;
-
 }
 
 .logoPie {
@@ -69,7 +63,5 @@ a {
 .newsletter {
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: xx-large;
-    color: black;
-    
-
+    color: black;  
 }

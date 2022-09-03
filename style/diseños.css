@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bahiana&family=Bangers&family=Bebas+Neue&family=Caveat:wght@500&family=Metal&family=Noto+Sans:wght@300&family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bahiana&family=Bangers&family=Bebas+Neue&family=Caveat:wght@500&family=Metal&family=Noto+Sans:wght@300&family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bahiana&family=Bangers&family=Bebas+Neue&family=Caveat:wght@500&family=Metal&family=Noto+Sans:wght@300&family=Permanent+Marker&family=Secular+One&display=swap");
@@ -9,9 +8,9 @@ header {
   display: grid;
   align-items: center;
   justify-content: center;
-  background-color: #FCFCFC;
   background-image: url(../imagen/fondoLupulos3.jpg);
   background-size: cover;
+  background-color: #FCFCFC;
 }
 
 .fontNav {
@@ -76,13 +75,13 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: justify;
-  background-color: #91BF70;
   padding: 10px;
+  background-color: #91BF70;
 }
 
 .seccionHomebrewer {
-  background-color: #91BF70;
   margin-bottom: 30px;
+  background-color: #91BF70;
 }
 
 .presentacion {
@@ -126,6 +125,7 @@ nav ul li:hover {
 
 .logoLink {
   width: 30%;
+  margin: 5px;
 }
 
 .tituloPpal {
@@ -134,8 +134,8 @@ nav ul li:hover {
   text-align: center;
   font-style: italic;
   margin: 0px 0 0px 0;
-  background-color: #F2BA52;
   border-top: black solid 2px;
+  background-color: #F2BA52;
 }
 
 picture {
@@ -148,6 +148,14 @@ picture {
 
 .cuadroLinkHomebrew {
   margin: 5px;
+}
+
+.parteTienda {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 10px;
+  background-color: #91BF70;
 }
 
 .subtitulos {
@@ -228,27 +236,25 @@ a {
 
 .list-group-item {
   font-family: "Chivo", sans-serif;
-  border: solid 2px black;
   text-align: center;
 }
 
 .card {
   overflow: hidden;
-  background-color: #F2BA52;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
   margin: 5px;
   overflow-x: visible;
+  background-color: #F2BA52;
 }
 
 .btn {
-  background-color: #91BF70;
   color: black;
-  border: solid black 1px;
   display: flex;
   text-align: center;
   justify-content: center;
+  background-color: #91BF70;
 }
 
 .carousel {
@@ -264,13 +270,10 @@ a {
   width: 100%;
   background-color: rgb(185, 147, 76);
   margin-bottom: 20px;
-  border: black 2px solid;
-  border-radius: 5px;
   color: black;
   font-weight: bolder;
 }
 
-/* Todo esto lo saqué de un formulario ya armado */
 input[type=text],
 select,
 textarea {
@@ -329,7 +332,6 @@ input[type=submit] {
     margin-top: 0;
   }
 }
-/* fin de formulario */
 @media (min-width: 660px) {
   ul {
     display: flex;
@@ -410,13 +412,6 @@ input[type=submit] {
   .ellas3 {
     grid-area: ellas3;
   }
-  .deLitro {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    gap: 25px;
-    overflow-x: visible;
-  }
   .canelaPumpkin {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -460,6 +455,10 @@ input[type=submit] {
   .carousel {
     width: 50%;
   }
+  .tienda660 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }
 @media (min-width: 1000px) {
   .prueba, .pruebaLinks {
@@ -488,11 +487,6 @@ input[type=submit] {
   .newsletter {
     font-size: 50px;
   }
-  .deLitro {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100%;
-  }
   .textoProy {
     margin-right: 20px;
   }
@@ -509,7 +503,7 @@ input[type=submit] {
     font-size: x-large;
   }
   .carousel {
-    width: 30%;
+    width: 40%;
   }
   .texto {
     font-size: 30px;

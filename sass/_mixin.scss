@@ -1,16 +1,14 @@
-@mixin mixinBotones($widht, $color , $margin, $border, $borderradius, $fontColor, $fontBold){
+@mixin mixinBotones($widht, $color , $margin, $fontColor, $fontBold){
 
     width: $widht;
     background-color: $color;
     margin-bottom: $margin;
-    border: $border;
-    border-radius: $borderradius;
     color: $fontColor;
     font-weight: $fontBold;
 }
 
 .mixinBotones{
-    @include mixinBotones(100%, rgb(185, 147, 76), 20px, black 2px solid, 5px, black, bolder);
+    @include mixinBotones(100%, rgb(185, 147, 76), 20px, black, bolder);
 }
     
 

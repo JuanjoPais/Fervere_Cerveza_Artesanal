@@ -2,12 +2,8 @@
     display: grid;
     grid-template-columns: 100%;
     gap: 20px;
-    
-
 
 }
-
-
 
 .parte1 {
     margin-bottom: 20px;
@@ -15,19 +11,15 @@
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    background-color: $colorSecciones;
     padding: 10px;
-    
-    
-
-
+    background-color: $colorSecciones;
 
 }
 
 .seccionHomebrewer {
-    background-color: $colorSecciones;
-    
     margin-bottom: 30px;
+    background-color: $colorSecciones;
+
 }
 
 .presentacion {
@@ -44,8 +36,6 @@
     border-bottom: black solid 2px;
     border-top: black solid 2px;
 }
-
-
 
 .itemTienda {
     text-align: center;
@@ -64,48 +54,53 @@
 nav ul li:hover {
     font-size: 30px;
     border: black solid 2px;
-    border-radius: 10px;}
+    border-radius: 10px;
+}
 
 .logo {
+    width: 70%;
+}
 
-        width: 70%;
-    }
-    
-    
-    
+
+
 .imgHome {
-        width: 100%;
-    
-    }
-    
-    
-.logoLink {
-        width: 30%;
-    }
+    width: 100%;
+}
 
-.tituloPpal{
+
+.logoLink {
+    width: 30%;
+    margin: 5px;
+}
+
+.tituloPpal {
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 300%;
     text-align: center;
     font-style: italic;
     margin: 0px 0 0px 0;
-    background-color: $backgroundColor;
     border-top: black solid 2px;
-}    
+    background-color: $backgroundColor;
+}
 
-picture{
+picture {
     margin-bottom: 10px;
 }
 
-.linksHomebrew{
+.linksHomebrew {
     margin-bottom: 20px;
 }
 
-.cuadroLinkHomebrew{
+.cuadroLinkHomebrew {
     margin: 5px;
 }
 
 
 
-
-
+.parteTienda {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 10px;
+    background-color: $colorSecciones;
+}
